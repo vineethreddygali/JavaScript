@@ -1,0 +1,218 @@
+<html>
+<head>
+<title>Bidio</title>
+<link alt="logo" rel="icon" href="./BLogo.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 5px;
+}
+
+li {
+  float: Right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius:5px;
+}
+
+li a:hover {
+  background-color: white;
+  color:black;
+  
+}
+
+ul .search-container {
+  float: left;
+}
+ul input[type=text1] {
+  padding: 6px;
+  margin-top: 5px;
+  font-size: 17px;
+  border: none;
+  border-radius: 6px;
+}
+
+ul .search-container button {
+  float: left;
+  padding: 0px 10px;
+  margin-top: 3px;
+  margin-left: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+h1{
+  
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 200%;
+  margin: 41px 0px 10px 0px !important;
+} 
+
+.margin{
+  width: 65%;
+  height: 3px;
+  background-color: #004d4d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  border-radius: 50%;
+}
+
+.pro {
+  padding: 16px;
+  background-color: white;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.sbid {
+  background-color: #0086b3;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  width: 180px;
+  display: block;
+  margin-bottom:20px;
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  
+}
+
+div.title {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+ <ul>
+  <li><a href="Profile.html"><b>Profile</b></a></li>
+  <li><a class="active" href="Bidio.html"><b>Home</b></a></li>
+  <li><a href="Bid.html"><b>Add Bid</b></a></li>
+  <li><a href="AboutUs.html"><b>About Us</b></a></li>
+
+  <li><a><b>Filter</b></a></li>
+    
+
+  <div class="search-container">
+    <form action="">
+      <input type="text1" placeholder="Search.." name="search">
+      <button class="sea" type="submit"><img src="search.png" width="50" height="40"></img></button>
+    </form>
+  </div>
+</ul>
+
+<h1> Add Bid </h1>
+<div class="pro">
+<center>
+    <label for="pname"><b>Product Name</b></label>
+    <input type="text" name="pname" id="name" >
+
+    <label for="price"><b> Price </b></label>
+    <input type="text" name="price" id="phone" >
+
+    <label for="disc"><b>Discription</b></label>
+    <input type="text" name="disc" id="disc" >
+</center>
+
+
+
+<div class="gallery">
+  <a target="_blank" href="#Link">
+    <img src="add.png" alt="Product" width="600" height="400">
+  </a>
+  <center>Add Image</center>
+  
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="#Link">
+    <img src="add.png" alt="Product" width="600" height="400">
+  </a>
+  <center>Add Image</center>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="#Link">
+    <img src="add.png" alt="Product" width="600" height="400">
+  </a>
+  <center>Add Image</center>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="#Link">
+    <img src="add.png" alt="Product" width="600" height="400">
+  </a>
+  <center>Add Image</center>
+  
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="#Link">
+    <img src="add.png" alt="Product" width="600" height="400">
+  </a>
+  <center>Add Image</center>
+   
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="#Link">
+    <img src="add.png" alt="Product" width="600" height="400">
+  </a>
+  <center>Add Image</center>
+</div>
+
+
+    <button class="Sbid">Start Bid</button>
+  </div>
+  
+</body>
+</html>
